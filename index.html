@@ -1,364 +1,229 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-72704241-4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-72704241-4');
-</script>
-    <title>Anuj Potdar</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet">
-
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="css/aos.css">
-
-    <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Anuj Potdar">
-    <link href="images/favicon.png" rel="shortcut icon"/>
-
-		<meta name="keywords" content="anujpotdar, anuj potdar, software developer, game developer, come alive cards, desi rider game">
-
-    <!-- MAIN CSS -->
-    <link rel="stylesheet" href="css/style.css">
-
-  </head>
-
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuj Ashok Potdar | Senior Software Engineer</title>
+    <meta name="description" content="Personal website of Anuj Ashok Potdar, Senior Software Engineer at Kayak specializing in Java Backend, Distributed Systems, and AI Architectures.">
     
-    <div class="site-wrap" id="home-section">
+    <!-- Google Knowledge Panel Person Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Person",
+      "name": "Anuj Ashok Potdar",
+      "jobTitle": "Senior Software Engineer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Kayak"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Cambridge",
+        "addressRegion": "MA",
+        "addressCountry": "US"
+      },
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Northeastern University"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "St. Francis Institute of Technology, University of Mumbai"
+        }
+      ],
+      "knowsAbout": [
+        "Java Backend Development",
+        "Distributed Systems",
+        "Trustworthy AI",
+        "Agentic AI",
+        "Small Language Models (SLMs)"
+      ],
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Institute of Electrical and Electronics Engineers (IEEE)"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/YOUR-LINKEDIN-PROFILE",
+        "https://scholar.google.com/citations?user=YOUR-SCHOLAR-ID",
+        "https://hackernoon.com/u/YOUR-HACKERNOON-PROFILE",
+        "https://github.com/anizmo"
+      ]
+    }
+    </script>
 
-      <div class="site-mobile-menu site-navbar-target">
-        <div class="site-mobile-menu-header">
-          <div class="site-mobile-menu-close mt-3">
-            <span class="icon-close2 js-menu-toggle"></span>
-          </div>
-        </div>
-        <div class="site-mobile-menu-body"></div>
-      </div>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --text-color: #333;
+            --bg-color: #f9f9f9;
+            --container-bg: #ffffff;
+        }
 
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+        }
 
-      <header class="site-navbar site-navbar-target" role="banner">
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
 
-        <div class="container">
-          <div class="row align-items-center position-relative">
+        header {
+            text-align: center;
+            padding: 4rem 0 2rem;
+            border-bottom: 2px solid #eee;
+            margin-bottom: 2rem;
+        }
 
-            <div class="col-3 ">
-              <div class="site-logo">
-                <!-- <a href="index.html" class="font-weight-bold">Anuj.</a> -->
-              </div>
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
+
+        .location {
+            font-size: 1rem;
+            color: #7f8c8d;
+            margin-bottom: 1.5rem;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            background: var(--container-bg);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #eee;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .highlight {
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 1rem;
+            }
+            header {
+                padding: 2rem 0 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Anuj Ashok Potdar</h1>
+            <div class="subtitle">Senior Software Engineer | Java Backend & Distributed Systems | AI Architectures</div>
+            <div class="location">📍 Cambridge, MA (Boston Area)</div>
+            <div class="social-links">
+                <!-- Replace the # with your actual URLs -->
+                <a href="#">LinkedIn</a>
+                <a href="#">Google Scholar</a>
+                <a href="#">HackerNoon</a>
+                <a href="https://github.com/anizmo">GitHub</a>
             </div>
+        </header>
 
-            <div class="col-9  text-right">
-              
+        <main>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>I am a Senior Software Engineer at Kayak, specializing in Java backend development, Spring Boot, and building robust microservice architectures. With a Master of Science in Computer Science from Northeastern University and a Bachelor of Engineering in Information Technology from the University of Mumbai, my work focuses on designing scalable, distributed systems.</p>
+                <p>Beyond core backend engineering, I am deeply invested in the evolution of AI architectures. I actively explore Trustworthy AI systems, Agentic AI, and safety mechanisms for Small Language Models (SLMs). As an IEEE Senior Member, I am passionate about mentoring the next generation of engineers and contributing to the global tech community.</p>
+                <p>When I am not writing code or reviewing technical papers, I enjoy nature photography and road trips around New England and beyond.</p>
+            </section>
 
-              <span class="d-inline-block d-lg-block"><a href="#" class="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span class="icon-menu h3 text-white"></span></a></span>
-
-              
-
-              <nav class="site-navigation text-right ml-auto d-none d-lg-none" role="navigation">
-                <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                  <li class="active"><a href="index.html" class="nav-link">Home</a></li>
-                  <li><a href="index.html#aboutus" class="nav-link">About</a></li>
-                  <li><a href="index.html#domains" class="nav-link">Domains</a></li>
-                  <li><a href="index.html#work" class="nav-link">My Work</a></li>
-                  <li><a href="index.html#publications" class="nav-link">Publications</a></li>
-                </ul>
-              </nav>
-            </div>
-
-            
-          </div>
-        </div>
-
-      </header>
-
-    <div class="ftco-blocks-cover-1">
-      <div class="site-section-cover overlay" style="background-image: url('images/dar_setup.jpg')">
-        <div class="container">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-md-7 text-center">
-              <h1 class="mb-4 text-white">Anuj Potdar</h1>
-              <p class="mb-4">An Engineer with a knack for Android and Game Development.</p>
-              <button type="button" class="btn btn-outline-light" onclick="location.href='https://drive.google.com/file/d/1i_rJN-EBK2HOuPENnTHlBdDhOGSh0rUX/view?usp=sharing'">View Latest CV</button>
-              <div class="action-"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="site-section" id="aboutus">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <h2 class="h4 mb-4"><center>About Me</center></h2>
-            <p>I am a graduate with a degree of Bachelor of Engineering in Information Technology from the University of Mumbai. I am currently working as an Android Application Developer in Cuddle Artificial Intelligence Pvt. Ltd. which is a part of Fractal Group of Companies.</p>
-            <p>In my free time I play video games because of which I also developed an interest in Game Development and Augmented Reality. I have shipped one game title of my own and more than 30 AR titles for clients of mine from various parts of the world.</p>
-            <p>At the moment I have developed and owned two products namely "Come Alive Cards" and "Desi Rider". I take up freelace projects of Android and Web Development which helps me be up to date with latest practices and standards followed in industry.</p>
-          </div>
-          
-          <div class="col-md-6">
-            <br>
-
-            
-            
-            <h2 class="h4 mb-4"><center>Skills</center></h2>
-
-            <div class="progress-wrap mb-4">
-              <div class="d-flex">
+            <section id="publications">
+                <h2>Academic Work & Publications</h2>
                 <ul>
-                <li style="margin: 10px 0;">Android Development - Android Jetpack Componenets</li>
-                <li style="margin: 10px 0;">Java</li>
-                <li style="margin: 10px 0;">Kotlin</li>
-                <li style="margin: 10px 0;">Unity 3D</li>
-                <li style="margin: 10px 0;">nodeJS</li>
-                <li style="margin: 10px 0;">HTML</li>
-                <li style="margin: 10px 0;">CSS</li>
-                <li style="margin: 10px 0;">Bootstrap</li>
-                <li>DialogFlow</li>
-              </ul>
-              </div>
-            
-            </div>
-        
-          </div>
-        </div>
-      </div>
+                    <li><span class="highlight">Book Chapter:</span> <em>Introduction to Trustworthy AI</em> (Springer, 2026)</li>
+                    <li><span class="highlight">Book Chapter:</span> <em>The Evolution of Cloud Computing: From Virtual Machines to Serverless</em> (Wiley, 2026)</li>
+                    <li><span class="highlight">Research Paper:</span> <em>3D Character Generation from Images using Convolutional Neural Networks and 3D-Character Factory</em></li>
+                </ul>
+            </section>
+
+            <section id="community">
+                <h2>Technical Community & Reviewing</h2>
+                <ul>
+                    <li><strong>IEEE Status:</strong> Senior Member (Elevated July 2025, Boston Section)</li>
+                    <li><strong>Technical Reviewer:</strong> Manning Publications, Springer, Wiley</li>
+                    <li><strong>Conference Involvement:</strong> Session Chair and Peer Reviewer for over 10 IEEE Conferences (including IEEE TIC 2026 and MIT URTC)</li>
+                </ul>
+            </section>
+
+            <section id="projects">
+                <h2>Writing & Current Projects</h2>
+                <ul>
+                    <li><strong>Technical Articles:</strong> Top writer on HackerNoon covering AI accountability, cloud infrastructure efficiency, and container security.</li>
+                    <li><strong>Upcoming Book:</strong> Currently developing a simplified AI literacy book working-titled <em>How to Speak AI</em> (or <em>Fluent in AI</em>).</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Anuj Ashok Potdar. All rights reserved.</p>
+        </footer>
     </div>
 
-    <div class="site-section bg-light" id="domains">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-7 mx-auto text-center">
-            <h2 class="heading-29190">Domains</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-lg-3">
-            <div class="service-29128 text-center">
-              <span class="d-block wrap-icon">
-                <span class="icon-shopping_cart"></span>
-              </span>
-              <h3>E-Commerce</h3>
-              <p>Worked as an android developer in e-commerce domain in one of top multi-nationational organizations, Ingram Micro SSC. Worked on various projects ranging from e-store, chatbots and dashboard applications.</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="service-29128 text-center">
-              <span class="d-block wrap-icon">
-                <span class="icon-pie_chart"></span>
-              </span>
-              <h3>Analytics</h3>
-              <p>Currently working as an Engineer in Cuddle Artificial Intelligence Private Limited, which is a part of Fractal Group of Organizations. Fractal is India's second largest Analytics organization.</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="service-29128 text-center">
-              <span class="d-block wrap-icon">
-                <span class="icon-phone_android"></span>
-              </span>
-              <h3>Augmented Reality</h3>
-              <p>Served more than 30 clients with personalized augmented reality greeting cards under the banner of "Come Alive Cards". A free AR Greeting Card library is available for use and download on the website.</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="service-29128 text-center">
-              <span class="d-block wrap-icon">
-                <span class="icon-games"></span>
-              </span>
-              <h3>Game Development</h3>
-              <p>Designed and developed a game as my graduation project with team of total 4 people. Have also published a title, "Desi Rider" on the Google Play Store which is played by a diverse set of players.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="site-section" id="work">
-      <div class="container">
-
-        <div class="row mb-5">
-          <div class="col-md-7 mx-auto text-center">
-            <h2 class="heading-29190">My Work</h2>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 col-lg-4 mb-4">
-            <div class="item web">
-              <a href="cuddle.html" target="_blank" class="item-wrap">
-                <span class="icon-add"></span>
-                <img class="img-fluid" src="images/cuddle.jpg">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-4">
-            <div class="item web">
-              <a href="ingram.html" target="_blank" class="item-wrap">
-                <span class="icon-add"></span>
-                <img class="img-fluid" src="images/ingram.jpg">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-4">
-            <div class="item web">
-              <a href="desirider.html" target="_blank" class="item-wrap">
-                <span class="icon-add"></span>
-                <img class="img-fluid" src="images/desirider.jpg">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-4">
-            <div class="item web">
-              <a href="comealivecards.html" target="_blank" class="item-wrap">
-                <span class="icon-add"></span>
-                <img class="img-fluid" src="images/comealivecards.jpg">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-4">
-            <div class="item web">
-              <a href="logs.html" target="_blank" class="item-wrap">
-                <span class="icon-add"></span>
-                <img class="img-fluid" src="images/logs.jpg">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 mb-4">
-            <div class="item web">
-              <a href="seawatersports.html" target="_blank" class="item-wrap">
-                <span class="icon-add"></span>
-                <img class="img-fluid" src="images/seawatersports.jpg">
-              </a>
-            </div>
-          </div>
-
-        </div>
-
-        
-      </div>
-    </div> <!-- END .site-section -->
-
-    <div class="site-section bg-white" id="publications">
-        <div class="container">
-          <div class="row mb-5">
-            <div class="col-md-7 mx-auto text-center">
-              <h2 class="heading-29190">Publications</h2>
-            </div>
-          </div>
-  
-          <div class="row">
-            <div class="col-lg-6 col-md-6 mb-4">
-              <div class="post-entry-1 h-100">
-              
-                <div class="post-entry-1-contents">
-                  <h2><a href="http://ijsrcseit.com/CSEIT195523" target="_blank">3D Character Generation from Images using Convolutional Neural Networks and 3D-Character Factory.</a></h2> 
-                  <span class="meta d-inline-block mb-3"> <a href="http://ijsrcseit.com/" target="_blank">International Journal of Scientific Research in Computer Science, Engineering and Information Technology </a> <br>Volume 5, Issue 5, September-October 2019 </span>
-                  <p>Face recognition using convolutional neural networks can be utilised for constructing 3D characters from a photograph or from a live person. By using convolutional neural networks human attributes like the color of the eyes, skin tone, hair color, presence or absence of facial hair, body type and so on can be identified and provided as a response to a 3D-Character in a game engine like Unity3D using factory pattern approach to make the 3D Character look like the subject.</p>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-lg-6 col-md-6 mb-4">
-              <div class="post-entry-1 h-100">
-              
-
-                <div class="post-entry-1-contents">
-                  
-                    <h2><a href="http://ijrar.com/uploads/conference/ijrar_47.pdf" target="_blank">Digital Game-Based Learning (DGBL): Design and Development of an Educational Game Design of Digital Games as Pedagogical Tools</a></h2>
-                    <span class="meta d-inline-block mb-3"> <a href="http://www.ijrar.org/" target="_blank">International Journal of Research and Analytical Reviews </a> <br>Special Issue, May 2019 </span>
-                    <p>Digital game-based learning (DGBL) assimilates educational content into video games with the goal of engaging learners. This paper examines the limitations of the educational system towards the accomplishment of learning goals and emphasizes the need of a tool that engages and educates the learner. It describes the game design model and aims to measure its efficacy and effectiveness in achieving its goals in terms of the enthusiasm and active participation the players feel during gameplay, as well as the post-gameplay satisfaction with newly acquired knowledge and skills. This model based on flow theory and game design, stresses the importance of providing the player with immediate feedback, clear objectives and challenges. This paper will introduce the concept of such a game and the various learning processes that take place during each phase. The flow theory framework is used in order to maximize the impact of player’s experience.</p>
-                  </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-
-            <div class="col-lg-4">
-                <img class="col-lg-8" src="images/anuj.jpeg">
-              </div>
-
-          <div class="col-lg-5">
-            <h2 class="footer-heading mb-3"><br><center>My Thoughts</center></h2>
-                <p style="text-align: center;">Born and brought up in India, I wish to do something great for the world. I believe that education is the road to development of a civilization, everyone should contribute to educating atleast one person outside their own family.</p>
-          </div>
-              
-              
-
-            <div class="col-lg-2">
-                <h2 class="footer-heading mb-4"><center>Connect</center></h2>
-                <div class="social_29128 white mb-5">
-                  <center>
-                  <a href="https://www.facebook.com/anizmoanuj" target="_blank"><span class="icon-facebook"></span></a>  
-                  <a href="https://www.instagram.com/anuj_911/?hl=en" target="_blank"><span class="icon-instagram"></span></a>  
-                  <a href="https://www.linkedin.com/in/potdaranuj/" target="_blank"><span class="icon-linkedin"></span></a>  
-                </center>
-                 </div>
-            
-              </div>
-              
-            </div>
-          </div>
-        </div>
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <div class="border-top pt-5">
-              
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </footer>
-
-    </div>
-
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/jquery-migrate-3.0.0.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/bootstrap-datepicker.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/aos.js"></script>
-
-    <script src="js/main.js"></script>
-
-  </body>
-
+</body>
 </html>
-
