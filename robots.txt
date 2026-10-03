@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://anizmo.github.io/sitemap.xml
